@@ -1,0 +1,337 @@
+* {
+  font-family: "Comic Neue", cursive;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+div {
+  width: 100%;
+}
+.header {
+  text-align: center;
+  border: 2px solid grey;
+}
+.main {
+  border: 2px solid grey;
+  padding: 40px;
+}
+.nav {
+  width: 100%;
+  padding: 20px;
+  border: 2px solid grey;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.search {
+  width: 70%;
+  border: 2px solid black;
+  padding: 4px;
+  margin: 0px 30px 0px 30px;
+}
+i {
+  font-size: 22px;
+  padding: 5px;
+}
+
+.button1 {
+  text-align: left;
+  width: 7%;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+h1 {
+  display: inline-block;
+  font-size: 40px;
+  padding: 2px;
+}
+.tube {
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.nav-bar {
+  width: 40%;
+  text-align: left;
+  border: 2px solid black;
+  padding: 7px;
+}
+.search1 {
+  text-align: center;
+  border: 2px solid black;
+  padding: 7px;
+  width: 200px;
+}
+
+a {
+  padding: 10px;
+  color: blue;
+}
+.a1 {
+  padding: 10px;
+  border-right: 3px solid black;
+  margin-left: 20px;
+}
+.a2 {
+  padding: 10px;
+  margin-left: 20px;
+}
+.a3 {
+  padding: 10px;
+  border-right: 3px solid black;
+  margin-left: 20px;
+}
+.a4 {
+  padding: 10px;
+  border-right: 3px solid black;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  padding: 15px;
+}
+select {
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 13px;
+  font-weight: 900;
+}
+.subscribe {
+  border: 2px solid black;
+  font-weight: 900;
+  padding: 5px;
+}
+.like {
+  font-weight: 900;
+  border: 1px solid black;
+  padding: 3px;
+}
+.share {
+  font-weight: 900;
+  border: 1px solid black;
+  padding: 7px;
+  font-size: 16px;
+}
+.embed {
+  border: 1px solid black;
+  padding: 7px;
+  font-size: 16px;
+  font-weight: 900;
+}
+.addTo {
+  font-weight: 900;
+  padding: 3px;
+  border: 1px solid black;
+}
+.flag {
+  padding: 3px;
+  border: 1px solid black;
+}
+.matrix {
+  width: 60%;
+  display: inline-block;
+}
+.content {
+  width: 100%;
+}
+
+.detailsContent {
+  display: inline-block;
+  width: 55%;
+  padding: 10px;
+  margin: 5px;
+}
+.view {
+  display: inline-block;
+  width: 39%;
+  text-align: center;
+  padding: 10px;
+  margin: 3px;
+}
+.details {
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.view > i {
+  font-size: 35px;
+}
+
+.show {
+  font-size: 20px;
+
+  padding: 5px;
+}
+.show > p {
+  padding: 5px;
+  font-weight: 900;
+  font-size: 18px;
+}
+.show > button {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.comments {
+  font-weight: 200;
+  font-size: 16px;
+}
+textarea {
+  width: 70%;
+  padding: 5px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.videos {
+  width: 35%;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+}
+.videos > .suggessations {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 5px;
+  margin: 10px;
+}
+
+.suggessationVideos {
+  width: 100%;
+  margin: 10px;
+}
+.suggessationVideos1 {
+  height: 180px;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.video1 {
+  display: inline-block;
+  width: 50%;
+}
+.vc1 {
+  display: inline-block;
+  width: 45%;
+  height: 180px;
+  padding: 40px;
+  align-content: left;
+  font-size: 18px;
+  font-weight: 700;
+}
+.suggessationVideos2 {
+  height: 180px;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.video2 {
+  display: inline-block;
+  width: 50%;
+}
+.vc2 {
+  display: inline-block;
+  width: 45%;
+  height: 180px;
+  padding: 40px;
+  align-content: left;
+  font-size: 18px;
+  font-weight: 700;
+}
+.suggessationVideos3 {
+  height: 180px;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.video3 {
+  display: inline-block;
+  width: 50%;
+}
+.vc3 {
+  display: inline-block;
+  width: 45%;
+  height: 180px;
+  padding: 40px;
+  align-content: left;
+  font-size: 18px;
+  font-weight: 700;
+}
+.suggessationVideos4 {
+  height: 180px;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.video4 {
+  display: inline-block;
+  width: 50%;
+}
+.vc4 {
+  display: inline-block;
+  width: 45%;
+  height: 180px;
+  padding: 40px;
+  align-content: left;
+  font-size: 18px;
+  font-weight: 700;
+}
+.suggessationVideos5 {
+  height: 180px;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.video5 {
+  display: inline-block;
+  width: 50%;
+}
+.vc5 {
+  display: inline-block;
+  width: 45%;
+  height: 180px;
+  padding: 40px;
+  align-content: left;
+  font-size: 18px;
+  font-weight: 700;
+}
+.suggessationVideos6 {
+  height: 180px;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.video6 {
+  display: inline-block;
+  width: 50%;
+}
+.vc6 {
+  display: inline-block;
+  width: 45%;
+  height: 180px;
+  padding: 40px;
+  align-content: left;
+  font-size: 18px;
+  font-weight: 700;
+}
